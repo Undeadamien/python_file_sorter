@@ -9,7 +9,6 @@ path_video_process = "C:\\Users\\Damien\\Desktop\\DRAWING_\\Documentation"
 
 for path in path_to_check:
     for file_ in listdir(path):
-
         try:
           
             if file_.lower().endswith((".mp3",".flac")):
